@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhythm Timalsina</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/527c1738c3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="#"><img src="images/logo.png" class="logo"></a>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Young Techpreneur | Web Developer | Robotics Enthusiast</p>
+                <h1>Hi, I'm <span>Rhythm</span> Timalsina<br>An Innovative Tech Leader <br>From Nepal</h1>
+            </div>
+        </div>
+    </div>
+<!-------------About----------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br>
+                    <p>I’m Rhythm Timalsina, a 17-year-old entrepreneur, tech enthusiast, and innovator from Nepal. 
+As the Founder & CEO of Dream Build IT Solutions Pvt Ltd and former President of the GoldenGate Science and Robotics Club, 
+I have led impactful projects in AI, robotics, cybersecurity, and health tech. My goal is to digitize Nepal through inclusive 
+technological transformation, youth empowerment, and volunteer-led innovation.</p>
+
+                       <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                       </div>
+                       <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>
+                            Experienced in building responsive and modern websites using HTML, CSS, JavaScript, and frameworks like Bootstrap. I focus on clean UI/UX, fast performance, and mobile-first design.</li>
+                            <li><span>Mobile App Development</span><br>
+                            Skilled in Flutter for cross-platform mobile app development. I build smooth, user-focused apps with Firebase integration for real-time data and authentication.</li>
+                            <li><span>Robotics & Embedded Systems</span><br>
+                            Worked with Arduino Uno and Raspberry Pi 4 to build voice-controlled robots, wearable health tech, and other embedded system projects, merging innovation with real-world impact.</li>
+                            <li><span>AI & Machine Learning Applications</span><br>
+                            Applied basic AI concepts in robotics, smart glasses, and health monitoring systems. I use AI to improve user interaction, automation, and accessibility.</li>
+                            <li><span>Cybersecurity & Ethical Hacking</span><br>
+                            Organized school-level awareness programs to protect youth from online abuse. I understand ethical hacking fundamentals and practice digital safety.</li>
+                            <li><span>Backend Development</span><br>
+                            Building efficient backend systems with Java, focusing on RESTful APIs, database security, and performance optimization.</li>
+                            <li><span>Mentorship</span><br>
+                            Mentoring youth in technology, innovation, and leadership through workshops and tech clubs. Passionate about inspiring others to grow and lead confidently.</li>
+                            <li><span>Event Organization & Planning</span><br>
+                            Successfully led large-scale tech events like Cyber Utsav, RC plane workshops, and international competition delegations. Skilled in sponsorship coordination and logistics.</li>
+                            <li><span>Beat Making & Music Production</span><br>
+                            Self-taught beat maker and music producer, blending electronic and acoustic elements to create unique soundscapes using digital audio workstations.</li>
+                            <li><span>Singer & Songwriter</span><br>
+                            Creative lyricist and vocalist with original compositions. Expressing emotions and stories through music is my personal outlet and passion.</li>
+                        </ul>
+                       </div>
+                       <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>CEO & Founder – Dream Build IT Solutions Pvt Ltd (2021 – Present)</span><br>
+                            • Leading a tech startup focused on AI, cybersecurity, and software development.<br> 
+                            • Managed international collaborations for tech events and innovation projects.</li>
+                            <li><span>President – GoldenGate Science and Robotics Club (2023 – 2024)  </span><br>
+                            • Organized national/international workshops, RC plane building, and represented Nepal at IIT Patna Celesta 2024.</li>
+                            <li><span>IT Chief – Gift Durbar (2023 – 2024)</span><br>
+                            • Handled digital systems and IT operations to enhance internal communication and outreach.</li>
+                            <li><span>Backend Developer – Unitask Masters (Jan 2025 – Present)</span><br>
+                            • Developing secure and efficient backend systems using Java, RESTful APIs, and data encryption techniques.</li>
+                            <li><span>Project Manager - TechSpire Robotics Community Club (jun 2025 - Present)</span><br>
+                            • Managing and designing websites for the club while leading tech projects and coordinating with team members to ensure smooth execution.</li>
+                            <li><span>Course Instructor - Full Stack Web Development, Skilltire.tm (Jun 2025 - Present)</span><br>
+                            • Teaching core concepts of front-end and back-end development, mentoring students, and designing project-based learning modules to build real-world applications.</li>
+                        </ul>
+                       </div>
+                       <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>GoldenGate International College</span><br>+2 in Computer Science (2023 – Present)</li>
+                            <li><span>Reliance International Academy</span><br>GPA: 3.45 (Graduated 2023)</li>
+                        </ul>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-------------Services--------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Responsive and dynamic websites built with HTML, CSS, JavaScript, and modern frameworks tailored for personal brands, businesses, and startups.</p>
+                <a href="https://github.com/Rhythm091">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Mobile App Development</h2>
+                <p>Cross-platform mobile applications using Flutter and Firebase to deliver seamless user experiences on both Android and iOS.</p>
+                <a href="https://github.com/Rhythm091">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>AI & Robotics Solutions</h2>
+                <p>Development of intelligent, voice-controlled robots, IoT projects, and AI-based devices like smart glasses and wearable health monitors.</p>
+                <a href="https://github.com/Rhythm091">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Cybersecurity Awareness</h2>
+                <p>Free cybersecurity camps, ethical hacking sessions, and digital safety awareness programs conducted in schools and communities.</p>
+                <a href="https://github.com/Rhythm091">Learn More</a>
+            </div> 
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Backend Development</h2>
+                <p>Efficient, secure backend systems using Java, RESTful APIs, and database management with encryption techniques for enterprise-level apps.</p>
+                <a href="https://github.com/Rhythm091">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------------portfolio---------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Telemedicine App (Flutter-based)</h3>
+                    <p>A mobile app designed to connect patients with doctors remotely, offering accessible healthcare support and future AI-based health monitoring features.</p>
+                    <a href="https://github.com/Rhythm091"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Anti-Rape Wearable Device</h3>
+                    <p>A compact safety device that detects danger through biometric changes and sends emergency alerts to nearby phones, police, or security networks.</p>
+                    <a href="https://github.com/Rhythm091"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Voice-Controlled Robot (Arduino + Pi)</h3>
+                    <p>An AI-integrated robot capable of understanding and executing spoken commands, built using Arduino Uno, Raspberry Pi 4, Python, and C++.</p>
+                    <a href="https://github.com/Rhythm091"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>RC Plane Workshop @ GoldenGate</h3>
+                    <p>Hands-on workshop guiding students through the design and construction of remote-controlled airplanes, promoting aerospace learning and teamwork.</p>
+                    <a href="https://github.com/Rhythm091"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Health Guard Smart Bracelet</h3>
+                    <p>A wearable health device that tracks vital signs and instantly connects users to family and doctors in case of accidents or illness.</p>
+                    <a href="https://github.com/Rhythm091"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/Rhythm091" class="btn">See more</a>
+    </div>
+</div>
+<!-------------------------Contact------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>info.yantrarhythm@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+977-9829700542</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/r.hythm.timalsina.866632" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.tiktok.com/@dream_build_official?lang=en" target="_blank"><i class="fa-brands fa-tiktok" target="_blank"></i></a>
+                    <a href="https://www.instagram.com/rhythmm091/" target="_blank"><i class="fa-brands fa-instagram" target="_blank"></i></a>
+                    <a href="https://www.linkedin.com/in/rhythm-timalsina-849729321/" target="_blank"><i class="fa-brands fa-linkedin" target="_blank"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" class="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© 2025 Rhythm Timalsina | All Rights Reserved | Kathmandu, Nepal</p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyh3kDOAxTO_M8R6N8YkaHhURebuDftfo8vn9UmYZuTkFTQF2nawS5tHkV4SdhTkCHzXQ/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message Sent Sucessfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
